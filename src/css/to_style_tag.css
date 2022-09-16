@@ -1,0 +1,49 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html,
+body,
+.document {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    max-width: 100%;
+    border: 0;
+}
+
+*[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.x-gmail-data-detectors,
+.x-gmail-data-detectors *,
+.aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+}

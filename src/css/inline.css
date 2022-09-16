@@ -1,0 +1,12 @@
+table,
+td {
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 0 auto;
+}

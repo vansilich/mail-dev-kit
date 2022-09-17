@@ -1,0 +1,36 @@
+doctype html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width' initial-scale='1')
+        meta(name='color-scheme' content='light, dark')
+        meta(name='supported-color-schemes' content='light, dark')
+
+        <!--[if !mso]>
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        <![endif]-->
+
+        meta(name='x-apple-disable-message-reformatting')
+
+        <!--[if mso]>
+        style.
+            * {
+                font-family: sans-serif !important;
+            }
+        <![endif]-->
+
+        //стили, которые будут переведены в аттрибут `style` у элементов
+        //после сборки, подключение css файла удаляется
+        link(rel='stylesheet' href='./css/inline.css')
+
+        title письмо
+        style
+            include ../css/to_style_tag.css
+    body
+        div(style={"display": 'none', 'max-height': '0', 'overflow': 'hidden'}).
+            <!-- текст, который будет показываться в предпросмотре письма, но скрыт в самом теле письма -->
+
+        div(style={'display': 'none', 'max-height': '0', 'overflow': 'hidden'}).
+            &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+
+        block body

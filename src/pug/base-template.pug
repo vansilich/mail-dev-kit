@@ -23,9 +23,11 @@ html
         //после сборки, подключение css файла удаляется
         link(rel='stylesheet' href='./css/inline.css')
 
-        title письмо
-        style
+        style(type="text/css")
             include ../css/to_style_tag.css
+
+        title письмо
+    
     body
         div(style={"display": 'none', 'max-height': '0', 'overflow': 'hidden'}).
             <!-- текст, который будет показываться в предпросмотре письма, но скрыт в самом теле письма -->
